@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_30_days_challenge/pages/home_page.dart';
 import 'package:flutter_30_days_challenge/pages/login_page.dart';
+import 'package:flutter_30_days_challenge/utils/my_routes.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -24,8 +25,8 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark
       ),
       routes: {
-        "/":(context)=>LoginPage(),
-        "/home":(context)=>HomePage()
+        MyRoutes.loginRoute:(context)=>LoginPage(),
+        MyRoutes.homeRoute:(context)=>HomePage()
       },
     );
   }
