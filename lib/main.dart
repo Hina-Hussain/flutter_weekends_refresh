@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_30_days_challenge/pages/home_page.dart';
 import 'package:flutter_30_days_challenge/pages/login_page.dart';
-import 'package:flutter_30_days_challenge/pages/my_theme.dart';
+import 'package:flutter_30_days_challenge/widgets/my_theme.dart';
 import 'package:flutter_30_days_challenge/utils/my_routes.dart';
 import 'package:google_fonts/google_fonts.dart';
 
